@@ -40,5 +40,21 @@ namespace WindowsFormsApp1
             int c = a * b;
             label1.Text = c.ToString();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+            int b = Convert.ToInt32(textBox2.Text);
+            int c;
+            if(b > a || b == 0)
+            {
+                label1.Text = "Podíl nelze vypočítat";
+            }
+            else
+            {
+                c = a / b;
+                label1.Text = c.ToString();
+            }
+        }
     }
 }
