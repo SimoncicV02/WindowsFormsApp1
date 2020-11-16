@@ -32,5 +32,13 @@ namespace WindowsFormsApp1
             int c = a - b;
             label1.Text = c.ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+            int b = Convert.ToInt32(textBox2.Text);
+            int c = a * b;
+            label1.Text = c.ToString();
+        }
     }
 }
