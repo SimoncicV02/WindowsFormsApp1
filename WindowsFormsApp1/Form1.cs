@@ -23,6 +23,7 @@ namespace WindowsFormsApp1
             int b = Convert.ToInt32(textBox2.Text);
             int c = a + b;
             label1.Text = c.ToString();
+            MessageBox.Show("aaaa");
         }
 
         private void button2_Click(object sender, EventArgs e)
